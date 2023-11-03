@@ -9,8 +9,8 @@ import java.util.concurrent.atomic.AtomicLong;
 public class DemoController {
 	private final AtomicLong counter = new AtomicLong();
 
-	@GetMapping("/")
-	public String index() {
+	@GetMapping("/hello")
+	public String Hello() {
 		return "Hello World!";
 	}
 
