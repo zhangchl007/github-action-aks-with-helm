@@ -2,6 +2,11 @@ name: STG Pipeline
 
 on:
   pull_request:
+    paths-ignore:
+      - 'README.md'
+      - '.github/**'
+      - 'helm/**'
+      - 'tests/**'  
     branches: 
       - main
     types: [closed]
