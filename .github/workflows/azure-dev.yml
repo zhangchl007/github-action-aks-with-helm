@@ -6,7 +6,7 @@ on:
       - dev
     paths-ignore:
       - 'README.md'
-      - 'workflows/**'
+      - '.github/**'
       - 'helm/**'
       - 'tests/**'  
   pull_request: 
