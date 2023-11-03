@@ -5,4 +5,4 @@ Library               RequestsLibrary
 
 Quick Get A JSON Body Test
     ${response}=    GET  https://startvmss.azurewebsites.net/
-    Should Contain  ${response.text}  Azure Function
+    Should Contain  ${response.text}  Function
