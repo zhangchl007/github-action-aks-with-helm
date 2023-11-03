@@ -11,7 +11,7 @@ on:
 
 env:
   REGISTRY_NAME: myacr0218
-  CLUSTER_NAME: aks-dev
+  CLUSTER_NAME: aks-staging
   CLUSTER_RESOURCE_GROUP: rg-staging-eastus
   NAMESPACE: webapp-dev
   CONTAINER_REGISTRY_URL: myacr0218.azurecr.io
