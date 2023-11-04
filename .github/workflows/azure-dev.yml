@@ -1,6 +1,11 @@
 name: DEV Pipeline
 
 on:
+  workflow_run:
+    workflows: ["CodeQL"]
+    branches: [dev]
+    types:
+    - completed
   push:
     branches:
       - dev
